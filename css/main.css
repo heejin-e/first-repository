@@ -66,20 +66,135 @@ p {
 .두번째_배경 {
   background-color: white;
   color: black;
-  padding: 30px;
+  padding: 70px 0;
 }
 .두번째_내용 {
   text-align: center;
 }
+.두번째_내용 .문구 strong {
+  font-size: 1.1rem;
+}
 /*세번쨰_배경*/
 .세번째_배경 {
   background-color: #5260ba;
+  padding: 60px 0;
+}
+.세번째_내용 {
+  text-align: center;
+  width: 960px;
+  margin: auto;
+}
+.주제 h2 {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+.주제 strong {
+  font-weight: noraml;
+  font-size: 1.3rem;
+}
+.세번째_배경 .아이콘_컨테이너 {
+  margin-top: 50px;
+}
+.아이콘_아이템 {
+  display: inline-block;
+  width: 240px;
+  margin-left: -5.1px;
+}
+.아이콘_컨테이너 .아이콘_배경 {
+  margin-left: 70px;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  color: #5260ba;
+  line-height: 120px;
+}
+.아이콘_배경 i {
+  font-size: 2.8rem;
+}
+.아이콘_아이템 h3 {
+  margin-top: 15px;
+  font-weight: normal;
+  font-size: 1.2rem;
+}
+.아이콘_아이템 p {
+  margin-top: 8px;
+  font-weight: lighter;
+  font-size: 1rem;
+  opacity: 0.7;
 }
 /*네번쨰_배경*/
 .네번째_배경 {
+  color: black;
+  padding: 60px;
+}
+.네번째_내용 {
+  text-align: center;
+}
+.박스_컨테이너 {
+  margin: 30px auto;
+}
+.박스_배경 {
+  width: 700px;
+  height: 410px;
+  display: inline-block;
+  margin-left: -5.1px;
+}
+.박스_배경:nth-of-type(1) {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/portfolio-1.jpg") no-repeat;
+}
+.박스_배경:nth-of-type(2) {
+  background: url("../images/portfolio-2.jpg") no-repeat;
+}
+.박스_배경:nth-of-type(3) {
+  background: url("../images/portfolio-3.jpg") no-repeat;
+}
+.박스_배경:nth-of-type(4) {
+  background: url("../images/portfolio-4.jpg") no-repeat;
+}
+.박스_내용 {
+  color: white;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 80px 60px;
+}
+.박스_내용 h3 {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+.박스_내용 p {
+  font-size: 1rem;
+  margin-top: 35px;
+  font-weight: lighter;
 }
 /*마지막_배경*/
 .마지막_배경 {
+  padding-bottom: 80px;
+}
+.SNS_컨테이너 {
+  text-align: center;
+}
+.아이콘 {
+  display: inline-block;
+  margin: 0 15px;
+  background-color: #5260ba;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  padding-top: 25px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.아이콘 i {
+  font-size: 2rem;
+}
+.출처 {
+  color: black;
+  margin-top: 30px;
+  text-align: center;
 }
 @media screen and (max-width: 1200px) {
   .첫번째_배경 {
