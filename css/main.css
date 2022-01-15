@@ -1,0 +1,103 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+address {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+/*------------reset.css end-----------*/
+
+/*전체_배경*/
+.전체_배경 {
+  color: white;
+}
+/*첫번쨰_배경*/
+.첫번째_배경 {
+  background: linear-gradient(#5d98d8, #5260ba);
+  /* height: 500px; */
+  outline: 1px solid green;
+  position: relative;
+  padding: 100px;
+  padding-top: 400px;
+}
+.첫번째_내용 {
+  width: 410px;
+  margin-top: -300px;
+}
+.첫번째_내용 .문구 {
+  width: 100%;
+}
+.첫번째_내용 .문구 h1 {
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+p {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+.버튼 {
+  display: inline-block;
+  margin-top: 15px;
+}
+.버튼 a {
+  display: inline-block;
+  background-color: #444445;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.첫번째_이미지 {
+  width: 380px;
+  position: absolute;
+  right: 140px;
+  bottom: 0;
+}
+.첫번째_이미지 img {
+  width: 100%;
+}
+/*두번쨰_배경*/
+.두번째_배경 {
+  background-color: white;
+  color: black;
+  padding: 30px;
+}
+.두번째_내용 {
+  outline: 1px solid red;
+  text-align: center;
+}
+/*세번쨰_배경*/
+.세번쨰_배경 {
+}
+/*네번쨰_배경*/
+.네번째_배경 {
+}
+/*마지막_배경*/
+.마지막_배경 {
+}
+@media screen and (max-width: 1200px) {
+  .첫번째_배경 {
+    padding-bottom: 0;
+  }
+  .첫번째_내용 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .첫번째_내용 .버튼 {
+    padding-left: 0;
+  }
+  .첫번째_이미지 {
+    position: static;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+}
