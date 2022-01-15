@@ -23,7 +23,6 @@ a {
 .첫번째_배경 {
   background: linear-gradient(#5d98d8, #5260ba);
   /* height: 500px; */
-  outline: 1px solid green;
   position: relative;
   padding: 100px;
   padding-top: 400px;
@@ -70,11 +69,11 @@ p {
   padding: 30px;
 }
 .두번째_내용 {
-  outline: 1px solid red;
   text-align: center;
 }
 /*세번쨰_배경*/
-.세번쨰_배경 {
+.세번째_배경 {
+  background-color: #5260ba;
 }
 /*네번쨰_배경*/
 .네번째_배경 {
