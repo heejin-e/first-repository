@@ -61,7 +61,7 @@ p {
 .one-bg .btn a {
   width: 145px;
 }
-.two-bg btn a {
+.two-bg .btn a {
   width: 175px;
 }
 .btn a:before {
